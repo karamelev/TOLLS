@@ -1,0 +1,12 @@
+	ID
+	Summerry[Da[3~[2~[3~[3~[2~[3~[C[Cry
+	Pre-Conditions
+	Steps
+	Actual result
+	Expected result
+	Environment
+	Attempt to repeat
+	Impact
+	Severity
+	Priority
+	Attachment
