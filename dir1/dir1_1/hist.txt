@@ -1,0 +1,49 @@
+
+  209  mrdir -p LessonTermVK/dir1 
+  210  mrdir -p LessonTermVK/{dir1,dir2}/ 
+  211* mkdir -p LessonTermVK/
+  212  ls -la
+  213  mrdir -p LessonTermVK/{dir1,dir2}/ 
+  214  mkdir -p LessonTermVK/{dir1,dir2}/ 
+  215  mkdir -p LessonTermVK/{dir1,dir2.dir3} 
+  216  mkdir -p LessonTermVK/{dir1,dir2,dir3} 
+  217  rm -R dir1.dir2
+  218  rm -R /dir1.dir2
+  219  rm -R ../dir1.dir2
+  220  rm -R ./dir1.dir2/
+  221  cd LessonTermVK/
+  222  mr -r dir1.dir2
+  223  rm -r dir1.dir2
+  224  ls -la
+  225  rm -R dir1.dir2
+  226  cd dir1
+  227  >file1.txt >file2.txt >obj1.json >obj2.json >script.sh 
+  228  mkdir dir1_1 dir1_2 dir1_3
+  229  cat >> file1.txt
+  230  cd ..
+  231  cd dir1
+  232  mv obj1.json obj.json /d/LessonTermVK/dir1/dir1_2
+  233  mv obj1.json obj2.json /d/LessonTermVK/dir1/dir1_2
+  234  ls -la
+  235  cd dir1_2
+  236  ls -la
+  237  mv obj1.json obj2.json /d/LessonTermVK/dir1
+  238  cd ..
+  239  ls -la
+  240  mv obj1.json obj2.json /d/LessonTermVK/dir1/dir1_2
+  241  cp file1.txt file2.txt /d/LessonTermVK//dir1/dir1_1
+  242  ls|grep file1.txt
+  243  cat file.txt
+  244  cd dir1_1
+  245  ls -la
+  246  cat file1.txt
+  247  less file1.txt
+  248  head -2 file1.txt
+  249  tail -8 file.txt
+  250  tail -n8 file.txt
+  251  tail file.txt
+  252  tail -n8 file1.txt
+  253  date
+  254  curl http://162.55.220.72:5005/terminal-hw-request
+  255  history
+  256  history>>hist.txt
